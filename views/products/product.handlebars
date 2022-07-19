@@ -1,0 +1,9 @@
+<div class="product-page">
+    <a href="/products">Voltar</a>
+    <h1>{{product.name}}</h1>
+    <img src="{{product.image}}" alt="{{product.name}}">
+    <p>Preço: R${{product.price}}</p>
+    <p>{{product.description}}</p>
+    <a href="/products/remove/{{product._id}}" class="btn">Excluir</a>
+    <a href="/products/edit/{{product._id}}" class="btn">Editar</a>
+</div>
